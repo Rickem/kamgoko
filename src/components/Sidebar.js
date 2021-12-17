@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { IconContext } from "react-icons"
 import { BsFillGridFill, BsShieldCheck } from "react-icons/bs"
 import { HiUsers } from "react-icons/hi"
@@ -8,7 +7,7 @@ import { ImBooks } from "react-icons/im"
 import { IoIosArrowForward } from "react-icons/io"
 
 function Sidebar() {
-  const [active, setActive] = useState(false);
+  // const [active, setActive] = useState(false);
 
   return (
     <IconContext.Provider value={{ color: "#B5B5C3", size: "1.5em", }}>
@@ -39,23 +38,23 @@ function Sidebar() {
         <div className="col-10">
           <div className="p-4">
             <h4 className="text-dark mt-3">Comptes</h4>
-            <a className="sidemenu-item sidemenu-item-active" href="#">
+            <a className="sidemenu-item sidemenu-item-active" href="/">
               Dashboard
               <IoIosArrowForward />
             </a>
-            <a className="sidemenu-item" href="#">
+            <a className="sidemenu-item" href="/">
               Sections
               <IoIosArrowForward />
             </a>
-            <a className="sidemenu-item" href="#">
+            <a className="sidemenu-item" href="/">
               Categories
               <IoIosArrowForward />
             </a>
-            <a className="sidemenu-item" href="#">
+            <a className="sidemenu-item" href="/">
               Labels
               <IoIosArrowForward />
             </a>
-            <a className="sidemenu-item" href="#">
+            <a className="sidemenu-item" href="/">
               Rôles
               <IoIosArrowForward />
             </a>
