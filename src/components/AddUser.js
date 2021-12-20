@@ -52,7 +52,7 @@ function AddUser({ onUserAdded }) {
       </Button>
 
 
-      <Modal show={show} onHide={handleClose}>
+      <Modal show={show} onHide={handleClose} centered>
         <Modal.Header closeButton>
           <Modal.Title>Ajouter un utilisateur</Modal.Title>
         </Modal.Header>

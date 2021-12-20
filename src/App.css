@@ -135,3 +135,7 @@
   height: 50px;
   width: 50px;
 }
+
+.modal-dialog {
+  margin: auto;
+}
