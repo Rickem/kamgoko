@@ -6,12 +6,13 @@
 .sidebar {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
   padding: 20px 8px;
 
   position: fixed;
   width: 70px;
-  height: 900px;
+  height: 100vh;
   left: 0px;
   top: 0px;
 
@@ -56,9 +57,81 @@
   color: #7E8299;
 }
 
+.custom-bold {
+  color: #7E82A6;
+  font-weight: bold;
+}
+
+.gray-pill {
+  color: #7E82A6;
+  font-weight: bold;
+  background: #F5F8FA;
+  padding: 3px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.success-pill {
+  color: #50CD89;
+  font-weight: bold;
+  background: #E8FFF3;
+  padding: 3px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.danger-pill {
+  color: #F1416C;
+  font-weight: bold;
+  background: #FFF5F8;
+  padding: 3px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.info-pill {
+  color: #00A3FF;
+  font-weight: bold;
+  background: #F1FAFF;
+  padding: 3px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.warning-pill {
+  color: #F1BC00;
+  font-weight: bold;
+  background: #FFF8DD;
+  padding: 3px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
 .avatar-img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   margin-bottom: 1rem;
+}
+
+.main-bg {
+  background: #f8f6f6;
+}
+
+.table-wrapper {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.badge-green {
+  background: #50CD89;
+}
+
+.avatar-bg {
+  background: #50CD89;
+  height: 50px;
+  width: 50px;
 }
